@@ -8,11 +8,13 @@ display:flex;
 
 .title{
 
+font-family: "Poppins", sans-serif;
     background-color: #FFB114;
     border:0;
     border-bottom: 1.5px solid whitesmoke;
 }
 .status{
+    font-family: "Poppins", sans-serif;
    background-color: #FFB114;
     border:0;
     border-bottom: 1.5px solid whitesmoke;

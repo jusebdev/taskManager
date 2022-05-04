@@ -22,7 +22,9 @@
 .text{
     margin: 0;
     font-size: medium;
-    font-weight: bolder
+    font-weight: 300;
+
+
 }
 
 .container3{

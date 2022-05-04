@@ -1,9 +1,9 @@
 import React from "react";
-import Options from "./Options";
 import TodoList from "./TodoList";
 import Buttons from "./Buttons";
 
 import styles from "../styles/components/MainContainer.module.css";
+import NewToDo from "./newToDo";
 
 function MainContainer() {
   return (
@@ -12,9 +12,9 @@ function MainContainer() {
         <h3 className={styles.text}>TODO LIST</h3>
         <div className={styles.container3}>
           <TodoList />
-          <Options />
+
+            <NewToDo/>
         </div>
-        <Buttons />
       </div>
     </div>
   );

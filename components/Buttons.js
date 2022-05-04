@@ -1,11 +1,12 @@
 import React from "react";
 import styles from "../styles/components/Buttons.module.css";
 
-function Buttons() {
+function Buttons({cb ,text}) {
+
+
   return (
     <div className={styles.container}>
-      <button className={styles.button}>ADD</button>
-      <button className={styles.button}>MODIFY</button>
+      <button onClick={cb} className={styles.button}>{text}</button>
     </div>
   );
 }

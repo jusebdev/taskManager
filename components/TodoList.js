@@ -1,13 +1,33 @@
-import React from "react";
-import Todo from './ToDo';
-import styles from'../styles/components/todoList.module.css'
+import React, {useEffect, useState} from "react";
+import db from '../utils/db'
+import styles from '../styles/components/todoList.module.css'
+import ToDo from "./ToDo";
+
+
 
 function TodoList() {
-  return <ul className={styles.list}>
-    <Todo text='hola soy un todo1 '/>
-    <Todo text='hola soy un todo 2'/>
-    <Todo text='hola soy un todo 3'/>
-    </ul>;
+  const [todos, setTodos] = useState([]);
+
+  useEffect(() => {
+
+
+    },[])
+
+  return(
+      <ul className={styles.list}>
+    {/*{todos.map(todo=>{*/}
+    {/*  <div key = {todo.id} >{todo.title}</div>*/}
+
+    {/*})}*/}
+
+        <ToDo text={'hola1'}/>
+        <ToDo text={'hola2'}/>
+        <ToDo text={'hola3'}/>
+        <ToDo text={'hola4'}/>
+
+    </ul>
+  );
 }
 
 export default TodoList;
+

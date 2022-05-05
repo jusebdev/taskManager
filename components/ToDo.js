@@ -2,12 +2,11 @@ import React from "react";
 import styles from '../styles/components/Todo.module.css'
 
 
-function ToDo({ title }) {
+function ToDo({children}) {
   return (
-    <li className={styles.li}>
-      <h3 className={styles.text}>{title}</h3>
-
-    </li>
+    <div className={styles.toDo}>
+      {children}
+    </div>
   );
 }
 

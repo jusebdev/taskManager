@@ -1,17 +1,21 @@
-.container{
-    display: flex;
-    flex-direction: column;
-    width: 18%;
-    height: 40%;
-    justify-content: space-between;
-    position: relative;
-    left: 82%;
+.container {
+  width: 18%;
+  height: 40%;
+  position: relative;
 }
 
-.button{
-    color: #FFB114;
-    background-color: #333333;
-    border-radius: 5px;
-    border: 0mm solid #333333;
-    height: 45%;
-}  
+.button {
+  color: #ffb114;
+  background-color: #333333;
+  border-radius: 5px;
+  border: 0mm solid #333333;
+  padding: 20%;
+}
+
+#add {
+  left: 80%;
+}
+
+/* #modify{
+
+} */

@@ -24,3 +24,7 @@ a {
 .appContainer {
   height: 100vh;
 }
+
+button,select:hover{
+  cursor: pointer;
+}

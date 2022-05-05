@@ -23,7 +23,7 @@ if(method === 'POST'){
 if(method === 'GET'){
     try{
         const tasks = await Task.find();
-        res.status(200).json({data:tasks})
+        res.status(200).json(tasks)
     }catch(error){
         res.status().json({message:'Internal Server Error '})
         console.log(error);

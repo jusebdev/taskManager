@@ -5,7 +5,7 @@
     height: 55%;
     margin-top: 10vh;
     padding-inline: 10%;
-    padding-block: 6%;
+    padding-block: 4%;
     display: flex;
     justify-content: center;
 }
@@ -16,18 +16,12 @@
     height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between
 }
 
 .text{
     margin: 0;
-    font-size: medium;
-    font-weight: 300;
-
-
-}
-
-.container3{
-    display:flex;
-    flex-direction: row;
+    font-size: 16px;
+    border-bottom: 2px solid whitesmoke;
+    width: 25%;
+    height: 20%;
 }

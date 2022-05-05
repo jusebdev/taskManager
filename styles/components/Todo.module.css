@@ -1,15 +1,8 @@
-.li{
-display: flex;
-flex-direction: row;
-    border-bottom: 1.5px solid whitesmoke;
-    justify-content: space-between ;
-}
-
-/*.text{*/
-
-/*}*/
-
-.button{
-border: 0;
-    background-color: #FFB114;
+.toDo {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 2px solid whitesmoke;
+  justify-content: space-between;
+  height: fit-content;
+  align-items: center;
 }

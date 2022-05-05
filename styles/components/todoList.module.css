@@ -1,8 +1,55 @@
-.list{
-    height: 100%;
-    width:60%;
-    margin:0;
-    padding: 0;
-    list-style: circle;
+/* .list {
+  height: 100%;
+  width: 60%;
+  margin: 0;
+  padding: 0;
+  list-style: circle;
+} */
 
+.toDos{
+    height: 100%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.toDoInput {
+  font-family: "Poppins", sans-serif;
+  background-color: #ffb114;
+  border: 0;
+  border-bottom: 2px solid whitesmoke;
+}
+
+.status {
+  font-family: "Poppins", sans-serif;
+  background-color: #ffb114;
+  border: 0;
+  border-bottom: 2px solid whitesmoke;
+}
+
+.formContainer {
+  height: 100%;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.remove_task{
+    background-color: #ffb114;
+    border: 0;
+}
+
+.container3{
+    width: 100%;
+    height: 60%;
+    display:flex;
+    flex-direction: row;
+}
+
+.taskText{
+    font-family: "Poppins", sans-serif;
+  background-color: #ffb114;
+  border: 0;
 }
